@@ -18,7 +18,7 @@ public class Hand : MonoBehaviour
     {
         RaycastHit hit;
 
-        if(Physics.Raycast(transform.position, transform.forward, out hit, 0.05, layer))
+        if(Physics.Raycast(transform.position, transform.forward, out hit, 1, layer))
         {
             Destroy(hit.transform.gameObject);
         }
