@@ -191,7 +191,7 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 1000
-  field of view: 60
+  field of view: 26.991467
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -1046,9 +1046,9 @@ MonoBehaviour:
   m_RigBaseGameObject: {fileID: 1191173471}
   m_CameraFloorOffsetObject: {fileID: 1834440161}
   m_CameraGameObject: {fileID: 125058740}
-  m_TrackingOriginMode: 2
+  m_TrackingOriginMode: 4
   m_TrackingSpace: 3
-  m_CameraYOffset: 1.36144
+  m_CameraYOffset: 1.5
 --- !u!4 &1191173473
 Transform:
   m_ObjectHideFlags: 0
@@ -1057,7 +1057,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1191173471}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.025, z: 0.685}
+  m_LocalPosition: {x: 0, y: 1.83, z: 0.685}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1834440162}
@@ -2056,7 +2056,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1834440161}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 125058744}

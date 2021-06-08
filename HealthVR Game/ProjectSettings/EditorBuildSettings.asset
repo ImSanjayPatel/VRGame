@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/VRBasics.unity
     guid: c5c72aa50e483104fad496505949ae56
   - enabled: 1
-    path: Assets/Scenes/Clean Up Task.unity
+    path: Assets/Scenes/Clean Up Task Dummy.unity
     guid: f24a53daa4d983a48b22df861fe2c244
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 98326259ac2e60c46981d273e5b9bde8,

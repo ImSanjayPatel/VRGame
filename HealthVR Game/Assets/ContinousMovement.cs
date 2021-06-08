@@ -40,13 +40,20 @@ public class ContinousMovement : MonoBehaviour
         character.Move(direction * Time.fixedDeltaTime * speed);
 
         //gravity
-        bool isGrounded = CheckIfGrounded();
+       
+        /*
+         
+         bool isGrounded = CheckIfGrounded();
         if (isGrounded)
             fallingSpeed = 0;
         else
             fallingSpeed += gravity + Time.fixedDeltaTime;
 
         character.Move(Vector3.up * fallingSpeed * Time.fixedDeltaTime);
+
+        */
+         
+         
     }
 
     void CapsuleFollowHeadset()
