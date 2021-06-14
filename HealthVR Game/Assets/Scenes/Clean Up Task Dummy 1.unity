@@ -237,7 +237,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 125058740}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.85, z: 0}
+  m_LocalPosition: {x: 0, y: 0.03, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1834440162}
@@ -1152,11 +1152,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.32158032
       objectReference: {fileID: 0}
-    - target: {fileID: -7791427530106215469, guid: c5ca6887a97767b46bb7725bac534f5e,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.0137
-      objectReference: {fileID: 0}
     - target: {fileID: -4484606565397146168, guid: c5ca6887a97767b46bb7725bac534f5e,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -1211,31 +1206,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.19680843
-      objectReference: {fileID: 0}
-    - target: {fileID: 3900563708210285411, guid: c5ca6887a97767b46bb7725bac534f5e,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.6098535
-      objectReference: {fileID: 0}
-    - target: {fileID: 3900563708210285411, guid: c5ca6887a97767b46bb7725bac534f5e,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.0741463
-      objectReference: {fileID: 0}
-    - target: {fileID: 3900563708210285411, guid: c5ca6887a97767b46bb7725bac534f5e,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.8068285
-      objectReference: {fileID: 0}
-    - target: {fileID: 3900563708210285411, guid: c5ca6887a97767b46bb7725bac534f5e,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.013
-      objectReference: {fileID: 0}
-    - target: {fileID: 3900563708210285411, guid: c5ca6887a97767b46bb7725bac534f5e,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.0349
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5ca6887a97767b46bb7725bac534f5e, type: 3}
@@ -1982,8 +1952,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1746289488}
   - component: {fileID: 1746289489}
-  - component: {fileID: 1746289491}
   - component: {fileID: 1746289490}
+  - component: {fileID: 1746289491}
   m_Layer: 0
   m_Name: Right Hand
   m_TagString: Untagged
