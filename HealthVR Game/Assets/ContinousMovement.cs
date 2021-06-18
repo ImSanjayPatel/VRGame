@@ -30,20 +30,22 @@ public class ContinousMovement : MonoBehaviour
         device.TryGetFeatureValue(CommonUsages.primary2DAxis, out inputAxis);
     }
 
-    private void FixedUpdate()
+    private void FixedUpdate() // Everytime unity updates the physics 
     {
         CapsuleFollowHeadset();
 
         Quaternion headYaw = Quaternion.Euler(0, rig.cameraGameObject.transform.eulerAngles.y, 0);
-        Vector3 direction = new Vector3(inputAxis.x, 0, inputAxis.y);
+        Vector3 direction = headYaw * new Vector3(inputAxis.x, 0, inputAxis.y); //  Move in the direction the player is facing 
 
         character.Move(direction * Time.fixedDeltaTime * speed);
 
+
         //gravity
-       
+
         /*
-         
+      
          bool isGrounded = CheckIfGrounded();
+
         if (isGrounded)
             fallingSpeed = 0;
         else
@@ -52,7 +54,6 @@ public class ContinousMovement : MonoBehaviour
         character.Move(Vector3.up * fallingSpeed * Time.fixedDeltaTime);
 
         */
-         
          
     }
 

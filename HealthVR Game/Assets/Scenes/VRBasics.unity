@@ -668,7 +668,7 @@ MonoBehaviour:
   gravity: -9.81
   groundLayer:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4096
   addtionalHeight: 0.2
 --- !u!114 &1191173476
 MonoBehaviour:
