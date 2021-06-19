@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/HouseScence.unity
+    path: 
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 0
     path: Assets/Scenes/VR Boxing Game.unity
@@ -14,12 +14,15 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: Assets/Scenes/VRBasics.unity
+  - enabled: 1
+    path: Assets/Scenes/Main Scene.unity
     guid: c5c72aa50e483104fad496505949ae56
   - enabled: 1
     path: Assets/Scenes/Clean Up Task Dummy.unity
     guid: f24a53daa4d983a48b22df861fe2c244
+  - enabled: 1
+    path: Assets/Scenes/Restaurant Scene.unity
+    guid: 578bfb7b2b3e04b44af014a0f62d2cb2
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 98326259ac2e60c46981d273e5b9bde8,
       type: 2}
