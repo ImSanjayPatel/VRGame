@@ -4,9 +4,10 @@ using UnityEngine;
 using UnityEngine.XR;
 using UnityEngine.XR.Interaction.Toolkit;
 
+
 public class ContinousMovement : MonoBehaviour
 {
-    public float speed = 1;     // Speed of the movement 
+    public float speed = 5;     // Speed of the movement 
     public XRNode inputSource;
     public float gravity = -9.81f;
     public LayerMask groundLayer;
@@ -37,23 +38,38 @@ public class ContinousMovement : MonoBehaviour
         Quaternion headYaw = Quaternion.Euler(0, rig.cameraGameObject.transform.eulerAngles.y, 0);
         Vector3 direction = new Vector3(inputAxis.x, 0, inputAxis.y);
 
-        character.Move(direction * Time.fixedDeltaTime * speed);
+
+
+
+        // Continous decrease in speed movement in the game
+        character.Move(direction * Time.fixedDeltaTime * speed)
+        if (speed > 1)
+        {
+            speed = speed + 0.0001f;
+        }
+
+
+        /*
 
         //gravity
-       
-        /*
-         
-         bool isGrounded = CheckIfGrounded();
-        if (isGrounded)
-            fallingSpeed = 0;
-        else
-            fallingSpeed += gravity + Time.fixedDeltaTime;
 
-        character.Move(Vector3.up * fallingSpeed * Time.fixedDeltaTime);
+         bool isGrounded = CheckIfGrounded();
+         if (isGrounded)
+         {
+            fallingSpeed = 0;
+         }
+        else
+        {
+            fallingSpeed += gravity + Time.fixedDeltaTime;
+            character.Move(Vector3.up * fallingSpeed * Time.fixedDeltaTime); // Possible cause of fixed camera position 
+        }
 
         */
-         
-         
+            
+
+        
+
+        
     }
 
     void CapsuleFollowHeadset()
