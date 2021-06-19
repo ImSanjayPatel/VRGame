@@ -1798,7 +1798,7 @@ GameObject:
   - component: {fileID: 1191173475}
   - component: {fileID: 1191173474}
   - component: {fileID: 1191173476}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: VR Rig (Play area)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1868,7 +1868,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a86c498181f2d94ba4b99759ef42f42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
   inputSource: 4
   gravity: -9.81
   groundLayer:

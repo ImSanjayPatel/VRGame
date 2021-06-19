@@ -4,9 +4,9 @@ using UnityEngine;
 using UnityEngine.XR;
 using UnityEngine.XR.Interaction.Toolkit;
 
-public class ContinousMovement : MonoBehaviour
+public class EffectedGamePlay : MonoBehaviour
 {
-    private float speed = 3;     // Speed of the movement 
+    private float speed = 5;     // Speed of the movement 
     public XRNode inputSource;
     public float gravity = -9.81f;
     public LayerMask groundLayer;
@@ -40,8 +40,16 @@ public class ContinousMovement : MonoBehaviour
         character.Move(direction * Time.fixedDeltaTime * speed);
         
 
-     
-       // Debug.Log(speed);
+        if(speed < 1)
+        {
+            speed = speed;
+        }
+        else
+        {
+            speed = speed - 0.001f;
+        }
+
+        Debug.Log(speed);
 
         //gravity
 
