@@ -6,6 +6,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class EffectedGamePlay : MonoBehaviour
 {
+    static float energy = 0.0001f;
     private float speed = 5;     // Speed of the movement 
     public XRNode inputSource;
     public float gravity = -9.81f;
@@ -38,18 +39,18 @@ public class EffectedGamePlay : MonoBehaviour
         Vector3 direction = headYaw * new Vector3(inputAxis.x, 0, inputAxis.y); //  Move in the direction the player is facing 
 
         character.Move(direction * Time.fixedDeltaTime * speed);
+
+
+       
+       if(speed < 1)
+       {
+           speed = speed;
+       }
+       else
+       {
+           speed = speed - 0.001f;
+       }
         
-
-        if(speed < 1)
-        {
-            speed = speed;
-        }
-        else
-        {
-            speed = speed - 0.001f;
-        }
-
-        Debug.Log(speed);
 
         //gravity
 

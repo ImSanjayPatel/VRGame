@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: VAR
-  productName: Health VR Game
+  productName: Walking Task
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -131,6 +131,7 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 4404623973139193509, guid: 90791335920c4da44bf28f2ce5899362, type: 2}
   - {fileID: 11400000, guid: 98326259ac2e60c46981d273e5b9bde8, type: 2}
+  - {fileID: 11400000, guid: 1dd4df337aa5bb04c8002dabcb1f78c9, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
