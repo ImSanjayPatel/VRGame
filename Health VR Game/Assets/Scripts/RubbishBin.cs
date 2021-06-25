@@ -1,54 +1,70 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
+using System;
+using UnityEngine.SceneManagement;
 
 public class RubbishBin : MonoBehaviour
 {
+    private int RubbishCount = 0;
+
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag != "Rubbish" )
+        if (collision.gameObject.tag == "Rubbish" )
         {
-            Destroy(collision.gameObject);
+            RubbishCount = RubbishCount + 1;
         }
-        if (collision.gameObject.tag != "Rubbish1")
+        if (collision.gameObject.tag == "Rubbish1")
         {
-            Destroy(collision.gameObject);
+            RubbishCount = RubbishCount + 1;
         }
-        if (collision.gameObject.tag != "r1")
+        if (collision.gameObject.tag == "r1")
         {
-            Destroy(collision.gameObject);
+            RubbishCount = RubbishCount + 1;
         }
-        if (collision.gameObject.tag != "r2")
+        if (collision.gameObject.tag == "r2")
         {
-            Destroy(collision.gameObject);
+            RubbishCount = RubbishCount + 1;
         }
-        if (collision.gameObject.tag != "r3")
+        if (collision.gameObject.tag == "r3")
         {
-            Destroy(collision.gameObject);
+            RubbishCount = RubbishCount + 1;
         }
-        if (collision.gameObject.tag != "r4")
+        if (collision.gameObject.tag == "r4")
         {
-            Destroy(collision.gameObject);
+            RubbishCount = RubbishCount + 1;
         }
-        if (collision.gameObject.tag != "r5")
+        if (collision.gameObject.tag == "r5")
         {
-            Destroy(collision.gameObject);
+            RubbishCount = RubbishCount + 1;
         }
-        if (collision.gameObject.tag != "r6")
+        if (collision.gameObject.tag == "r6")
         {
-            Destroy(collision.gameObject);
+            RubbishCount = RubbishCount + 1;
         }
-        if (collision.gameObject.tag != "r7")
+        if (collision.gameObject.tag == "r7")
         {
-            Destroy(collision.gameObject);
+            RubbishCount = RubbishCount + 1;
         }
-        if (collision.gameObject.tag != "r8")
+        if (collision.gameObject.tag == "r8")
         {
-            Destroy(collision.gameObject);
+            RubbishCount = RubbishCount + 1;
         }
-        if (collision.gameObject.tag != "r9")
+        if (collision.gameObject.tag == "r9")
         {
-            Destroy(collision.gameObject);
+            RubbishCount = RubbishCount + 1;
+        }
+    }
+
+    void Update()
+    {
+
+
+        if (RubbishCount == 11 && LaundryBasket.LaundryCount == 4)
+        {
+            Debug.Log("Everything is away");
+            SceneManager.LoadScene("Lunch");
         }
     }
 }
