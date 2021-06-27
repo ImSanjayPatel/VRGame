@@ -290,7 +290,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Play Game
+  m_Text: Play Again
 --- !u!222 &169911883
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -699,6 +699,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8372859162613003556, guid: 00326c1ec198a894fa3f14f23bef76e2,
+        type: 3}
+      propertyPath: m_Text
+      value: The End
+      objectReference: {fileID: 0}
     - target: {fileID: 8372859162613003556, guid: 00326c1ec198a894fa3f14f23bef76e2,
         type: 3}
       propertyPath: m_FontData.m_FontSize

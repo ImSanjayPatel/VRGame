@@ -131,7 +131,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: eb6d2c704d1706745aaa9fe9e5b40fcc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: eb6d2c704d1706745aaa9fe9e5b40fcc,
         type: 3}
@@ -521,7 +521,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6965492449404223241, guid: 4a5b8238d018bf44295cf1e14e460b31, type: 3}
 --- !u!114 &139254305
@@ -1528,7 +1528,7 @@ Transform:
   m_LocalScale: {x: 1.5, y: 1, z: 1.5}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 180, y: 0, z: 0}
 --- !u!1 &1746289487
 GameObject:
@@ -1835,7 +1835,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: f130c6d6c0242384f8463d0406c87a33,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f130c6d6c0242384f8463d0406c87a33,
         type: 3}

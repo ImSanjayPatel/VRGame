@@ -21,6 +21,8 @@ TagManager:
   - c2
   - c3
   - c4
+  - Loops
+  - Toast
   layers:
   - Default
   - TransparentFX

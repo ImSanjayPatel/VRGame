@@ -14,21 +14,33 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Main Scene.unity
     guid: c5c72aa50e483104fad496505949ae56
   - enabled: 0
     path: 
-    guid: f24a53daa4d983a48b22df861fe2c244
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/Scenes/Resturants/Lunch.unity
+    guid: bd8fad55c151377419d41bee4759d342
+  - enabled: 0
+    path: Assets/Scenes/Main Menu.unity
+    guid: c3d2c2643cd6db1439f47580152fc548
   - enabled: 1
     path: Assets/Scenes/Resturants/Breakfast.unity
     guid: 578bfb7b2b3e04b44af014a0f62d2cb2
   - enabled: 1
-    path: Assets/Scenes/Resturants/Lunch.unity
-    guid: bd8fad55c151377419d41bee4759d342
+    path: Assets/Scenes/Clean Up Task Fix.unity
+    guid: 780bc991e2aa0d34fb5d2e8c5d0f9d88
   - enabled: 1
-    path: Assets/Scenes/Main Menu.unity
-    guid: c3d2c2643cd6db1439f47580152fc548
+    path: Assets/Scenes/Walking Task.unity
+    guid: 84dee3f58567b804e827d6de639ef1aa
+  - enabled: 1
+    path: Assets/Scenes/End Scene.unity
+    guid: 7f5da9e7b804afe48b90cde42ead65bf
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 98326259ac2e60c46981d273e5b9bde8,
       type: 2}
