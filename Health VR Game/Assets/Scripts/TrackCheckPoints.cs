@@ -42,10 +42,10 @@ public class TrackCheckPoints : MonoBehaviour
             nextCheckpointSingleIndex++;
             OnPlayerCorrectCheckpoint?.Invoke(this, EventArgs.Empty);
 
-            if (checkpointSingleList.IndexOf(checkpointSingle) == 21)
+            if (checkpointSingleList.IndexOf(checkpointSingle) == 3)  //21
             {
                 Debug.Log("End Point");
-                SceneManager.LoadScene("End Scene");
+                SceneManager.LoadScene("Dinner2");
             }
         }
         else
@@ -56,9 +56,10 @@ public class TrackCheckPoints : MonoBehaviour
             
         }
 
-        if (checkpointSingleList.IndexOf(checkpointSingle) == 21)
+        if (checkpointSingleList.IndexOf(checkpointSingle) == 3)
         {
             Debug.Log("End Point");
+            SceneManager.LoadScene("Dinner2");
         }
 
     }

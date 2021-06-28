@@ -15,17 +15,17 @@ public class BreakfastCounter : MonoBehaviour
             if (moneybar)
             {
                 moneybar.OnPlayerChooseOption(4);
-                SceneManager.LoadScene("Clean Up Task Fix");
+                SceneManager.LoadScene("CleanUpTaskFF");
                 Check++;
             }
         }
 
-        if (collision.gameObject.tag == "Toast")
+        if (collision.gameObject.tag == "Toast" && Check == 0)
         {
             if (moneybar)
             {
-                moneybar.OnPlayerChooseOption(11);
-                SceneManager.LoadScene("Walking Task");
+                moneybar.OnPlayerChooseOption(9);
+                SceneManager.LoadScene("CleanUpTaskHF");
                 Check++;
             }
         }

@@ -23,6 +23,10 @@ TagManager:
   - c4
   - Loops
   - Toast
+  - Burger
+  - Salad
+  - Pizza
+  - Salmon
   layers:
   - Default
   - TransparentFX
@@ -39,8 +43,8 @@ TagManager:
   - Ground
   - Body
   - Grab
-  - 
-  - 
+  - Red
+  - Green
   - 
   - 
   - 

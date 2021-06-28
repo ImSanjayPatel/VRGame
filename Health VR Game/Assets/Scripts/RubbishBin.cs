@@ -61,10 +61,10 @@ public class RubbishBin : MonoBehaviour
     {
 
 
-        if (RubbishCount == 11 && LaundryBasket.LaundryCount == 4)
+        if (RubbishCount == 1 && LaundryBasket.LaundryCount == 1)
         {
             Debug.Log("Everything is away");
-            SceneManager.LoadScene("Lunch");
+            SceneManager.LoadScene("Lunch2");
         }
     }
 }
